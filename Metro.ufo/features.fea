@@ -1,0 +1,211 @@
+languagesystem DFLT dflt;
+languagesystem arab dflt;
+
+
+# GSUB 
+
+
+lookup initInitialFormsinArabiclookup0 {
+  lookupflag IgnoreMarks;
+    sub \uni0633 by \uniFEB3 ;
+    sub \uni0634 by \uniFEB7 ;
+    sub \uni0635 by \uniFEBB ;
+    sub \uni0636 by \uniFEBF ;
+    sub \uni062C by \uniFE9F ;
+    sub \uni062D by \uniFEA3 ;
+    sub \uni062E by \uniFEA7 ;
+    sub \uni0639 by \uniFECB ;
+    sub \uni063A by \uniFECF ;
+    sub \uni0628 by \uniFE91 ;
+    sub \uni062A by \uniFE97 ;
+    sub \uni062B by \uniFE9B ;
+    sub \uni0643 by \uniFEDB ;
+    sub \uni0644 by \uniFEDF ;
+    sub \uni0646 by \uniFEE7 ;
+    sub \uni0637 by \uniFEC3 ;
+    sub \uni0638 by \uniFEC7 ;
+    sub \uni0626 by \uniFE8B ;
+    sub \uni0647 by \uniFEEB ;
+    sub \uni064A by \uniFEF3 ;
+    sub \uni0641 by \uniFED3 ;
+    sub \uni0642 by \uniFED7 ;
+    sub \uni0645 by \uniFEE3 ;
+} initInitialFormsinArabiclookup0;
+
+lookup mediMedialFormsinArabiclookup1 {
+  lookupflag IgnoreMarks;
+    sub \uni0633 by \uniFEB4 ;
+    sub \uni0634 by \uniFEB8 ;
+    sub \uni0635 by \uniFEBC ;
+    sub \uni0636 by \uniFEC0 ;
+    sub \uni062C by \uniFEA0 ;
+    sub \uni062D by \uniFEA4 ;
+    sub \uni062E by \uniFEA8 ;
+    sub \uni0639 by \uniFECC ;
+    sub \uni063A by \uniFED0 ;
+    sub \uni0628 by \uniFE92 ;
+    sub \uni062A by \uniFE98 ;
+    sub \uni062B by \uniFE9C ;
+    sub \uni0643 by \uniFEDC ;
+    sub \uni0644 by \uniFEE0 ;
+    sub \uni0646 by \uniFEE8 ;
+    sub \uni0637 by \uniFEC4 ;
+    sub \uni0638 by \uniFEC8 ;
+    sub \uni0626 by \uniFE8C ;
+    sub \uni0647 by \uniFEEC ;
+    sub \uni064A by \uniFEF4 ;
+    sub \uni0641 by \uniFED4 ;
+    sub \uni0642 by \uniFED8 ;
+    sub \uni0645 by \uniFEE4 ;
+} mediMedialFormsinArabiclookup1;
+
+lookup finaTerminalFormsinArabiclookup {
+  lookupflag IgnoreMarks;
+    sub \uni0627 by \uniFE8E ;
+    sub \uni0633 by \uniFEB2 ;
+    sub \uni0634 by \uniFEB6 ;
+    sub \uni0635 by \uniFEBA ;
+    sub \uni0636 by \uniFEBE ;
+    sub \uni062C by \uniFE9E ;
+    sub \uni062D by \uniFEA2 ;
+    sub \uni062E by \uniFEA6 ;
+    sub \uni0639 by \uniFECA ;
+    sub \uni063A by \uniFECE ;
+    sub \uni0628 by \uniFE90 ;
+    sub \uni062A by \uniFE96 ;
+    sub \uni062B by \uniFE9A ;
+    sub \uni0629 by \uniFE94 ;
+    sub \uni0643 by \uniFEDA ;
+    sub \uni0644 by \uniFEDE ;
+    sub \uni062F by \uniFEAA ;
+    sub \uni0649 by \uniFEF0 ;
+    sub \uni06D2 by \uniFBAF ;
+    sub \uni0646 by \uniFEE6 ;
+    sub \uni0637 by \uniFEC2 ;
+    sub \uni0631 by \uniFEAE ;
+    sub \uni0648 by \uniFEEE ;
+    sub \uni0632 by \uniFEB0 ;
+    sub \uni0638 by \uniFEC6 ;
+    sub \uni0630 by \uniFEAC ;
+    sub \uni0622 by \uniFE82 ;
+    sub \uni0623 by \uniFE84 ;
+    sub \uni0625 by \uniFE88 ;
+    sub \uni0624 by \uniFE86 ;
+    sub \uni0626 by \uniFE8A ;
+    sub \uni0647 by \uniFEEA ;
+    sub \uni064A by \uniFEF2 ;
+    sub \uni0641 by \uniFED2 ;
+    sub \uni0642 by \uniFED6 ;
+    sub \uni0645 by \uniFEE2 ;
+} finaTerminalFormsinArabiclookup;
+
+lookup rligRequiredLigaturesinArabiclo {
+  lookupflag IgnoreMarks;
+    sub \uniFEDB \uniFE8E  by \uniFC37;
+    sub \uniFEDF \uniFE8E  by \uniFEFB;
+    sub \uniFEDF \uniFE88  by \uniFEF9;
+    sub \uniFEDF \uniFE84  by \uniFEF7;
+    sub \uniFEDF \uniFE82  by \uniFEF5;
+    sub \uniFEE0 \uniFE82  by \uniFEF6;
+    sub \uniFEE0 \uniFE84  by \uniFEF8;
+    sub \uniFEE0 \uniFE88  by \uniFEFA;
+    sub \uniFEE0 \uniFE8E  by \uniFEFC;
+} rligRequiredLigaturesinArabiclo;
+
+lookup ligaStandardLigaturesinArabiclo {
+  lookupflag 0;
+    sub \uniFEE8 \uniFEF0  by \uniFC8E;
+    sub \uniFEE8 \uniFEF2  by \uniFC8F;
+    sub \uniFE98 \uniFEF0  by \uniFC74;
+    sub \uniFE98 \uniFEF2  by \uniFC75;
+    sub \uniFE8C \uniFEF0  by \uniFC68;
+    sub \uniFE8C \uniFEF2  by \uniFC69;
+    sub \uniFEF4 \uniFEF0  by \uniFC95;
+    sub \uniFEF4 \uniFEF2  by \uniFC96;
+    sub \uniFE9C \uniFEF0  by \uniFC7A;
+    sub \uniFE9C \uniFEF2  by \uniFC7B;
+} ligaStandardLigaturesinArabiclo;
+
+feature init {
+
+ script DFLT;
+     language dflt ;
+      lookup initInitialFormsinArabiclookup0;
+
+ script arab;
+     language dflt ;
+      lookup initInitialFormsinArabiclookup0;
+} init;
+
+feature medi {
+
+ script DFLT;
+     language dflt ;
+      lookup mediMedialFormsinArabiclookup1;
+
+ script arab;
+     language dflt ;
+      lookup mediMedialFormsinArabiclookup1;
+} medi;
+
+feature fina {
+
+ script DFLT;
+     language dflt ;
+      lookup finaTerminalFormsinArabiclookup;
+
+ script arab;
+     language dflt ;
+      lookup finaTerminalFormsinArabiclookup;
+} fina;
+
+feature rlig {
+
+ script DFLT;
+     language dflt ;
+      lookup rligRequiredLigaturesinArabiclo;
+
+ script arab;
+     language dflt ;
+      lookup rligRequiredLigaturesinArabiclo;
+} rlig;
+
+feature liga {
+
+ script DFLT;
+     language dflt ;
+      lookup ligaStandardLigaturesinArabiclo;
+
+ script arab;
+     language dflt ;
+      lookup ligaStandardLigaturesinArabiclo;
+} liga;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\uni0661 \uni0662 \uni0663 \uni0664 \uni0665 \uni0666 \uni0667 
+	\uni0668 \uni0669 \uni0627 \uni0633 \uni0634 \uni0635 \uni0636 \uni062C \uni062D 
+	\uni062E \uni0639 \uni063A \uniFEBB \uniFEBF \uniFEDB \uniFED6 \uniFE9F \uniFEA3 
+	\uniFEA7 \uni0628 \uni062A \uni062B \uni0629 \uni066E \uniFEEB \uniFEEC \uniFED2 
+	\uni0643 \uni0644 \uni062F \uni0649 \uniFEF0 \uniFEE3 \uniFECB \braceright 
+	\braceleft \parenleft \parenright \bracketleft \bracketright \uni064D \uni064F 
+	\uni0652 \uni06D2 \uniFBAF \uni0646 \uni0637 \uniFEE6 \uniFE97 \uniFEB8 \uniFEDF 
+	\uniFEB3 \uniFE9B \uniFE91 \uniFEE7 \uniFEF3 \uniFEEE \uniFEAE \uni0631 \uni0648 
+	\uni0632 \uni0638 \uni0630 \uni0622 \uni0623 \uni0625 \uni0624 \uni0626 \uni0647 
+	\uni064A \uni0641 \uni0642 \uni0645 \uniFE8E \uniFE92 \uniFE98 \uniFE9C \uniFEA0 
+	\uniFEA4 \uniFEA8 \uniFEB0 \uniFEB4 \uniFEB7 \uniFEBC \uniFEC0 \uniFEE4 \uniFEE8 
+	\uniFEF2 \uniFEF4 \uniFEDC \uniFE8A \uniFE86 \uniFE82 \uniFE84 \uniFE88 \uni064E 
+	\uni0650 \uni0651 \space \uniFEB2 \uniFEB6 \uniFEBA \uniFEBE \uniFEC2 \uniFEC6 
+	\uniFECA \uniFECE \uniFEAA \uniFEAC \uniFE94 \uniFEEA \uniFEE0 \uniFEDE \uniFE90 
+	\uniFE96 \uniFE9A \uniFE9E \uniFEA2 \uniFEA6 \uni066F \uni06A1 \uniFECF \uniFECC 
+	\uniFED0 \uniFEDA \smallhamza \uni0621 \uniFEC3 \uniFEC4 \uniFEC7 \uniFEC8 
+	\initialbaa \narrowinitialbaa \uniFE8B \uniFE8C \yehwezza \dot \twodots 
+	\threedots \uniFEE2 \uniFED3 \uniFED4 \initialdotlessfeh \uniFED7 \uniFED8 ];
+@GDEF_Ligature = [\uniFC37 \uniFC8E \uniFEFB \uniFEF9 \uniFEF7 \uniFEF5 \uniFEF6 
+	\uniFEF8 \uniFEFA \uniFEFC \uniFC8F \uniFC74 \uniFC75 \uniFC68 \uniFC69 \uniFC95 
+	\uniFC96 \uniFC7A \uniFC7B ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , ;
+
+} GDEF;
+

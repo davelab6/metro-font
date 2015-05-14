@@ -1,0 +1,4 @@
+masters:
+  base:
+    cpsFile: base.cps
+    skeleton: skeleton.base

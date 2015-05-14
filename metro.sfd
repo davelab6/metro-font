@@ -4,24 +4,25 @@ FullName: Metro
 FamilyName: Metro
 Weight: Regular
 Copyright: Created by Khaled Hosny with FontForge 2.0 (http://fontforge.sf.net)
-UComments: "2011-7-30: Created." 
+UComments: "2011-7-30: Created."
 Version: 000.100
 ItalicAngle: 0
 UnderlinePosition: -200
 UnderlineWidth: 100
 Ascent: 800
 Descent: 200
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 0 "Back"  1
-Layer: 1 0 "Fore"  0
-NeedsXUIDChange: 1
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+PreferredKerning: 4
 XUID: [1021 398 194582295 711436]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1312056181
-ModificationTime: 1312233210
+ModificationTime: 1431610523
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -41,14 +42,14 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 1 8 0 "'init' Initial Forms in Arabic lookup 0"  {"'init' Initial Forms in Arabic lookup 0-1"  } ['init' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
-Lookup: 1 8 0 "'medi' Medial Forms in Arabic lookup 1"  {"'medi' Medial Forms in Arabic lookup 1-1"  } ['medi' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
-Lookup: 1 8 0 "'fina' Terminal Forms in Arabic lookup 2"  {"'fina' Terminal Forms in Arabic lookup 2-1"  } ['fina' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
-Lookup: 4 8 1 "'rlig' Required Ligatures in Arabic lookup 3"  {"'rlig' Required Ligatures in Arabic lookup 3-1"  } ['rlig' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
-Lookup: 4 0 1 "'liga' Standard Ligatures in Arabic lookup 4"  {"'liga' Standard Ligatures in Arabic lookup 4-1"  } ['liga' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
+Lookup: 1 8 0 "'init' Initial Forms in Arabic lookup 0" { "'init' Initial Forms in Arabic lookup 0-1"  } ['init' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
+Lookup: 1 8 0 "'medi' Medial Forms in Arabic lookup 1" { "'medi' Medial Forms in Arabic lookup 1-1"  } ['medi' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
+Lookup: 1 8 0 "'fina' Terminal Forms in Arabic lookup 2" { "'fina' Terminal Forms in Arabic lookup 2-1"  } ['fina' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
+Lookup: 4 8 1 "'rlig' Required Ligatures in Arabic lookup 3" { "'rlig' Required Ligatures in Arabic lookup 3-1"  } ['rlig' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Arabic lookup 4" { "'liga' Standard Ligatures in Arabic lookup 4-1"  } ['liga' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 
+LangName: 1033
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -73,11 +74,13 @@ BeginChars: 65544 171
 
 StartChar: uni0661
 Encoding: 1633 1633 0
+GlifName: uni0661
 Width: 520
 VWidth: 0
 Flags: W
 VStem: 215 90<-82 478>
 LayerCount: 2
+Back
 Fore
 SplineSet
 215 478 m 1
@@ -90,12 +93,14 @@ EndChar
 
 StartChar: uni0662
 Encoding: 1634 1634 1
+GlifName: uni0662
 Width: 520
 VWidth: 0
 Flags: W
 HStem: 387 89<232 378>
 VStem: 142 90<-82 387>
 LayerCount: 2
+Back
 Fore
 SplineSet
 378 476 m 1
@@ -111,12 +116,14 @@ EndChar
 
 StartChar: uni0663
 Encoding: 1635 1635 2
+GlifName: uni0663
 Width: 520
 VWidth: 0
 Flags: W
 HStem: 233 90<146 216 306 371>
 VStem: 59 90<-83 233 323 477> 146 3<233 323> 301 5<274 323> 371 90<323 477>
 LayerCount: 2
+Back
 Fore
 SplineSet
 371 477 m 1x98
@@ -146,6 +153,7 @@ EndChar
 
 StartChar: uni0664
 Encoding: 1636 1636 3
+GlifName: uni0664
 Width: 520
 VWidth: -2256
 Flags: W
@@ -206,11 +214,13 @@ EndChar
 
 StartChar: uni0665
 Encoding: 1637 1637 4
+GlifName: uni0665
 Width: 520
 VWidth: 0
 Flags: W
 HStem: -94 84<186.421 332.615>
 LayerCount: 2
+Back
 Fore
 SplineSet
 184 429 m 0
@@ -235,12 +245,14 @@ EndChar
 
 StartChar: uni0666
 Encoding: 1638 1638 5
+GlifName: uni0666
 Width: 520
 VWidth: 0
 Flags: W
 HStem: 387 90<102 329>
 VStem: 329 90<-82 386>
 LayerCount: 2
+Back
 Fore
 SplineSet
 102 477 m 1
@@ -256,10 +268,12 @@ EndChar
 
 StartChar: uni0667
 Encoding: 1639 1639 6
+GlifName: uni0667
 Width: 520
 VWidth: 0
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 260 63 m 1
@@ -276,10 +290,12 @@ EndChar
 
 StartChar: uni0668
 Encoding: 1640 1640 7
+GlifName: uni0668
 Width: 520
 VWidth: 0
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 260 337 m 1
@@ -296,12 +312,14 @@ EndChar
 
 StartChar: uni0669
 Encoding: 1641 1641 8
+GlifName: uni0669
 Width: 520
 VWidth: 0
 Flags: W
 HStem: 158 90<200.006 334>
 VStem: 334 90<-82 157 248 371.957>
 LayerCount: 2
+Back
 Fore
 SplineSet
 316 470 m 0
@@ -323,12 +341,14 @@ EndChar
 
 StartChar: uni0627
 Encoding: 1575 1575 9
+GlifName: uni0627
 Width: 191
 VWidth: 0
 Flags: W
 HStem: 0 21G<50 74> 89 1<50 140>
 VStem: 50 90<59.7382 560>
 LayerCount: 2
+Back
 Fore
 SplineSet
 50 560 m 1
@@ -346,12 +366,14 @@ EndChar
 
 StartChar: uni0633
 Encoding: 1587 1587 10
+GlifName: uni0633
 Width: 817
 VWidth: 0
 Flags: W
 HStem: -169 90<142 365> 0 90<451 521 611 677>
 VStem: 52 90<-79 160> 451 4<0 90> 607 4<41 90> 677 90<90 320>
 LayerCount: 2
+Back
 Fore
 SplineSet
 677 320 m 1
@@ -389,12 +411,14 @@ EndChar
 
 StartChar: uni0634
 Encoding: 1588 1588 11
+GlifName: uni0634
 Width: 817
 VWidth: 0
 Flags: W
 HStem: -169 90<142 365> 0 90<451 521 611 677> 390 90<455.481 534.519 609.481 688.519> 470 90<532.481 611.519>
 VStem: 52 90<-79 160> 449 92<396.481 473.519> 451 4<0 90> 526 92<476.481 553.519> 603 92<396.481 473.519> 607 4<41 90> 677 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 164 -1 N 1 0 0 1 572 390 2
 Refer: 10 1587 N 1 0 0 1 0 0 2
@@ -405,12 +429,14 @@ EndChar
 
 StartChar: uni0635
 Encoding: 1589 1589 12
+GlifName: uni0635
 Width: 893
 VWidth: 0
 Flags: W
 HStem: -169 90<142 365> 0 90<411 425 537 750> 233 90<644.483 736.29>
 VStem: 52 90<-79 160> 411 44<0 90> 750 90<90 220.649>
 LayerCount: 2
+Back
 Fore
 SplineSet
 365 236 m 1
@@ -450,12 +476,14 @@ EndChar
 
 StartChar: uni0636
 Encoding: 1590 1590 13
+GlifName: uni0636
 Width: 893
 VWidth: 0
 Flags: W
 HStem: -169 90<142 365> 0 90<411 425 537 750> 233 90<644.483 736.29> 370 90<449.481 528.519>
 VStem: 52 90<-79 160> 411 44<0 90> 443 92<376.481 453.519> 750 90<90 220.649>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 489 370 2
 Refer: 12 1589 N 1 0 0 1 0 0 2
@@ -466,12 +494,14 @@ EndChar
 
 StartChar: uni062C
 Encoding: 1580 1580 14
+GlifName: uni062C_
 Width: 497
 VWidth: 0
 Flags: W
 HStem: -247 90<140.135 371> -125 90<214.481 293.519> 0 90<140.057 335>
 VStem: 50 90<-156.697 -2.32254> 208 92<-118.519 -41.4806>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 S 1 0 0 1 254 -125 2
 Refer: 15 1581 N 1 0 0 1 0 0 2
@@ -482,12 +512,14 @@ EndChar
 
 StartChar: uni062D
 Encoding: 1581 1581 15
+GlifName: uni062D_
 Width: 497
 VWidth: 0
 Flags: W
 HStem: -247 90<140.135 371> 0 90<140.057 335>
 VStem: 50 90<-156.697 -2.32254>
 LayerCount: 2
+Back
 Fore
 SplineSet
 166 0 m 2
@@ -518,12 +550,14 @@ EndChar
 
 StartChar: uni062E
 Encoding: 1582 1582 16
+GlifName: uni062E_
 Width: 497
 VWidth: 0
 Flags: W
 HStem: -247 90<140.135 371> 0 90<140.057 335> 420 90<152.481 231.519>
 VStem: 50 90<-156.697 -2.32254> 146 92<426.481 503.519>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 192 420 2
 Refer: 15 1581 N 1 0 0 1 0 0 2
@@ -534,12 +568,14 @@ EndChar
 
 StartChar: uni0639
 Encoding: 1593 1593 17
+GlifName: uni0639
 Width: 421
 VWidth: 0
 Flags: W
 HStem: -247 90<140.135 371> 0 90<140.057 166 267 371> 258 90<190.781 368.615>
 VStem: 50 90<-156.697 -2.32254>
 LayerCount: 2
+Back
 Fore
 SplineSet
 190 31 m 1
@@ -573,12 +609,14 @@ EndChar
 
 StartChar: uni063A
 Encoding: 1594 1594 18
+GlifName: uni063A_
 Width: 421
 VWidth: 0
 Flags: W
 HStem: -247 90<140.135 371> 0 90<140.057 166 267 371> 258 90<190.781 368.615> 470 90<138.481 217.519>
 VStem: 50 90<-156.697 -2.32254> 132 92<476.481 553.519>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 178 470 2
 Refer: 17 1593 N 1 0 0 1 0 0 2
@@ -589,12 +627,14 @@ EndChar
 
 StartChar: uniFEBB
 Encoding: 65211 65211 19
+GlifName: uniF_E_B_B_
 Width: 601
 VWidth: 0
 Flags: W
 HStem: 0 90<0 73 136 150.117 248 461> 84 6<73 136> 233 90<355.483 447.29>
 VStem: 73 90<84 236> 461 90<90 220.649>
 LayerCount: 2
+Back
 Fore
 SplineSet
 404 323 m 0xb8
@@ -625,12 +665,14 @@ EndChar
 
 StartChar: uniFEBF
 Encoding: 65215 65215 20
+GlifName: uniF_E_B_F_
 Width: 601
 VWidth: 0
 Flags: W
 HStem: 0 90<0 73 136 150.117 248 461> 84 6<73 136> 233 90<355.483 447.29> 470 90<156.481 235.519>
 VStem: 73 90<84 236> 150 92<476.481 553.519> 461 90<90 220.649>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 196 470 2
 Refer: 19 65211 N 1 0 0 1 0 0 2
@@ -638,15 +680,15 @@ EndChar
 
 StartChar: uniFEDB
 Encoding: 65243 65243 21
+GlifName: uniF_E_D_B_
 Width: 528
 VWidth: 84
-Flags: W
+Flags: HWO
 HStem: 0 90<0 384> 482 90<367.117 471>
 LayerCount: 2
-Fore
+Back
 SplineSet
-463 572 m 0
- 468 572 473 572 478 572 c 1
+478 572 m 1
  471 482 l 1
  473 482 455 480 434 476 c 0
  413 472 387 466 359 458 c 0
@@ -664,34 +706,57 @@ SplineSet
  384 90 l 1
  153 326 l 1
  129 349 118 377 118 405 c 0
- 118 419 121 434 130 449 c 0
- 137 460 150 472 165 477 c 1
+ 118 437.729318191 136.592696898 467.530898966 165 477 c 5
  213 505 276 527 334 544 c 0
  364 553 393 560 417 565 c 0
- 435 569 449 571 463 572 c 0
+ 441.104755979 570.35661244 454.005706149 572 478 572 c 1
+EndSplineSet
+Fore
+SplineSet
+452 571 m 1
+ 340.036082474 541.5 279.77601907 522.905741815 249 512 c 0
+ 142.380758931 474.218573074 118 460.263736264 118 405 c 0
+ 118 354 138 342 220 258 c 1
+ 272.805071232 204.00001074 325.587754271 150.000018797 378.142857143 96 c 1
+ 380 94 381 93 384 90 c 1
+ 382 90 380 90 378 90 c 1
+ 251.67968252 90.000000055 129.490765184 89.9999994001 0 90 c 1
+ 5.98089170416e-08 55.3112542959 -1.40244847845e-09 30.1099597773 0 0 c 1
+ 132.76283085 -5.57856298253e-05 262.832735322 -2.63523099051e-05 393 0 c 1
+ 437.63500448 0 470.076185056 30.0729869678 477 67 c 0
+ 483.68343247 102.644973172 473.598975085 127.401024915 454 147 c 1
+ 396.237458707 206.506961072 338.565949518 265.899151192 278.746031746 328 c 1
+ 260.243693108 347.108972692 236 371 210 399 c 1
+ 234.482437827 408.859970968 257.075551092 418.137641702 279 425.889648438 c 0
+ 344.410351052 449.017321296 401.233333856 465.785116744 471 482 c 1
+ 452 571 l 1
 EndSplineSet
 EndChar
 
 StartChar: uniFED6
 Encoding: 65238 65238 22
+GlifName: uniF_E_D_6
 Width: 622
 VWidth: 0
 Flags: W
 HStem: -170 90<144.974 532> 2 89<397.981 532> 470 90<344.481 423.519 498.481 577.519>
 VStem: 50 90<-75.0262 156> 338 92<476.481 553.519> 492 92<476.481 553.519> 532 90<-80 0 90 205.927>
 LayerCount: 2
+Back
 Fore
 Refer: 81 1602 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFE9F
 Encoding: 65183 65183 23
+GlifName: uniF_E_9F_
 Width: 477
 VWidth: 0
 Flags: W
 HStem: -163 90<239.481 318.519> 0 90<0 315>
 VStem: 233 92<-156.519 -79.4806>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 279 -163 2
 Refer: 24 65187 N 1 0 0 1 0 0 2
@@ -699,11 +764,13 @@ EndChar
 
 StartChar: uniFEA3
 Encoding: 65187 65187 24
+GlifName: uniF_E_A_3
 Width: 477
 VWidth: 0
 Flags: W
 HStem: 0 90<0 315>
 LayerCount: 2
+Back
 Fore
 SplineSet
 315 90 m 0
@@ -723,12 +790,14 @@ EndChar
 
 StartChar: uniFEA7
 Encoding: 65191 65191 25
+GlifName: uniF_E_A_7
 Width: 477
 VWidth: 0
 Flags: W
 HStem: 0 90<0 315> 420 90<132.481 211.519>
 VStem: 126 92<426.481 503.519>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 S 1 0 0 1 172 420 2
 Refer: 24 65187 S 1 0 0 1 0 0 2
@@ -736,12 +805,14 @@ EndChar
 
 StartChar: uni0628
 Encoding: 1576 1576 26
+GlifName: uni0628
 Width: 581
 VWidth: -468
 Flags: W
 HStem: -151 90<294.481 373.519> 0 90<183.602 441>
 VStem: 50 90<140.602 320> 288 92<-144.519 -67.4806> 441 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 334 -151 2
 Refer: 30 1646 N 1 0 0 1 0 0 2
@@ -752,12 +823,14 @@ EndChar
 
 StartChar: uni062A
 Encoding: 1578 1578 27
+GlifName: uni062A_
 Width: 581
 VWidth: -468
 Flags: W
 HStem: 0 90<183.602 441> 470 90<185.481 264.519 339.481 418.519>
 VStem: 50 90<140.602 320> 179 92<476.481 553.519> 333 92<476.481 553.519> 441 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 163 -1 N 1 0 0 1 302 470 2
 Refer: 30 1646 N 1 0 0 1 0 0 2
@@ -768,12 +841,14 @@ EndChar
 
 StartChar: uni062B
 Encoding: 1579 1579 28
+GlifName: uni062B_
 Width: 581
 VWidth: -468
 Flags: W
 HStem: 0 90<183.602 441> 390 90<186.481 265.519 340.481 419.519> 470 90<263.481 342.519>
 VStem: 50 90<140.602 320> 180 92<396.481 473.519> 257 92<476.481 553.519> 334 92<396.481 473.519> 441 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 164 -1 N 1 0 0 1 303 390 2
 Refer: 30 1646 N 1 0 0 1 0 0 2
@@ -784,12 +859,14 @@ EndChar
 
 StartChar: uni0629
 Encoding: 1577 1577 29
+GlifName: uni0629
 Width: 420
 VWidth: 654
 Flags: W
 HStem: 0 90<139.82 280> 470 90<130.481 209.519 284.481 363.519>
 VStem: 124 92<476.481 553.519> 278 92<476.481 553.519> 280 90<90 281>
 LayerCount: 2
+Back
 Fore
 Refer: 163 -1 N 1 0 0 1 247 470 2
 Refer: 78 1607 N 1 0 0 1 0 0 2
@@ -798,6 +875,7 @@ EndChar
 
 StartChar: uni066E
 Encoding: 1646 1646 30
+GlifName: uni066E_
 Width: 581
 VWidth: -468
 Flags: W
@@ -838,12 +916,14 @@ EndChar
 
 StartChar: uniFEEB
 Encoding: 65259 65259 31
+GlifName: uniF_E_E_B_
 Width: 524
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 399> 47 43<67 157 225 315> 236 11<160 200>
 VStem: 67 90<47 155.039> 225 90<47 155.016> 383 91<90 176.25>
 LayerCount: 2
+Back
 Fore
 SplineSet
 157 326 m 1
@@ -875,12 +955,14 @@ EndChar
 
 StartChar: uniFEEC
 Encoding: 65260 65260 32
+GlifName: uniF_E_E_C_
 Width: 390
 VWidth: 0
 Flags: W
 HStem: -157 90<165.688 231.543> 0 43<75 165 233 323> 47 43<75 165 233 323> 157 90<165.688 231.543>
 VStem: 75 90<-65.0393 43 47 155.039> 233 90<-65.0156 43 47 155.016>
 LayerCount: 2
+Back
 Fore
 SplineSet
 197 -157 m 0
@@ -919,24 +1001,28 @@ EndChar
 
 StartChar: uniFED2
 Encoding: 65234 65234 33
+GlifName: uniF_E_D_2
 Width: 691
 VWidth: -480
 Flags: W
 HStem: -170 90<149.716 601> 2 89<468.842 601> 470 90<488.481 567.519>
 VStem: 52 90<-72.889 82> 482 92<476.481 553.519> 601 90<-80 0 90 205.927>
 LayerCount: 2
+Back
 Fore
 Refer: 80 1601 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFC37
 Encoding: 64567 64567 34
+GlifName: uniF_C_37
 Width: 525
 VWidth: -1730
 Flags: W
 HStem: 0 90<146 368>
 VStem: 56 90<90.968 313 415 562>
 LayerCount: 2
+Back
 Fore
 SplineSet
 414 570 m 1
@@ -978,12 +1064,14 @@ EndChar
 
 StartChar: uni0643
 Encoding: 1603 1603 35
+GlifName: uni0643
 Width: 510
 VWidth: 0
 Flags: W
 HStem: 0 90<98 370> 238 66<134 189> 332 66<248 298>
 VStem: 98 10<0 90> 134 139<240.028 303.5> 165 133<333.25 395.972> 370 90<90 560>
 LayerCount: 2
+Back
 Fore
 SplineSet
 370 560 m 1xf2
@@ -1008,12 +1096,14 @@ EndChar
 
 StartChar: uni0644
 Encoding: 1604 1604 36
+GlifName: uni0644
 Width: 502
 VWidth: 0
 Flags: W
 HStem: -160 90<140 362>
 VStem: 50 90<-70 90> 362 90<-70 560>
 LayerCount: 2
+Back
 Fore
 SplineSet
 362 560 m 1
@@ -1035,12 +1125,14 @@ EndChar
 
 StartChar: uni062F
 Encoding: 1583 1583 37
+GlifName: uni062F_
 Width: 413
 VWidth: 0
 Flags: W
 HStem: 0 90<50 273>
 VStem: 273 90<90 155.077>
 LayerCount: 2
+Back
 Fore
 SplineSet
 179 321 m 1
@@ -1060,12 +1152,14 @@ EndChar
 
 StartChar: uni0649
 Encoding: 1609 1609 38
+GlifName: uni0649
 Width: 552
 VWidth: 0
 Flags: W
 HStem: 0 90<159.201 399.002> 237 91<395.411 502>
 VStem: 50 90<109.598 322>
 LayerCount: 2
+Back
 Fore
 SplineSet
 402 328 m 1
@@ -1106,6 +1200,7 @@ EndChar
 
 StartChar: uniFEF0
 Encoding: 65264 65264 39
+GlifName: uniF_E_F_0
 Width: 502
 VWidth: 0
 Flags: W
@@ -1200,12 +1295,14 @@ EndChar
 
 StartChar: uniFEE3
 Encoding: 65251 65251 40
+GlifName: uniF_E_E_3
 Width: 447
 VWidth: 0
 Flags: W
 HStem: 0 90<0 83 172 298.071>
 VStem: 83 89<90 236.659>
 LayerCount: 2
+Back
 Fore
 SplineSet
 216 332 m 0
@@ -1238,6 +1335,7 @@ EndChar
 
 StartChar: uniFECB
 Encoding: 65227 65227 41
+GlifName: uniF_E_C_B_
 Width: 391
 VWidth: 0
 Flags: W
@@ -1287,27 +1385,31 @@ EndChar
 
 StartChar: uniFC8E
 Encoding: 64654 64654 42
+GlifName: uniF_C_8E_
 Width: 609
 VWidth: 0
 Flags: W
 HStem: -140 90<159.499 404.498> 0 21<585.5 609> 165 90<443.469 508.816> 470 90<411.481 490.519>
 VStem: 51 90<-30.8035 183> 405 92<476.481 553.519> 519 90<59.5024 160.756>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 451 470 2
 Refer: 161 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 4-1" uniFEE8 uniFEF0
 EndChar
 
 StartChar: braceright
 Encoding: 125 125 43
+GlifName: braceright
 Width: 341
 VWidth: 0
 Flags: W
 HStem: -251 90<51 108.526> 155 90<234.475 290> 560 90<52 109.62>
 VStem: 125 90<-144.573 118 119 146.384 260.425 544.619>
 LayerCount: 2
+Back
 Fore
 SplineSet
 51 650 m 1
@@ -1342,6 +1444,7 @@ EndChar
 
 StartChar: braceleft
 Encoding: 123 123 44
+GlifName: braceleft
 Width: 341
 VWidth: 0
 Flags: W
@@ -1349,6 +1452,7 @@ HStem: -250 90<232.474 290> 155 90<51 106.525> 560 90<231.38 289>
 VStem: 125 90<-144.573 146.384 260.426 545.618>
 CounterMasks: 1 e0
 LayerCount: 2
+Back
 Fore
 SplineSet
 290 650 m 0
@@ -1381,10 +1485,12 @@ EndChar
 
 StartChar: parenleft
 Encoding: 40 40 45
+GlifName: parenleft
 Width: 319
 VWidth: 0
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 189 671 m 1
@@ -1397,10 +1503,12 @@ EndChar
 
 StartChar: parenright
 Encoding: 41 41 46
+GlifName: parenright
 Width: 319
 VWidth: 0
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 130 671 m 1
@@ -1413,12 +1521,14 @@ EndChar
 
 StartChar: bracketleft
 Encoding: 91 91 47
+GlifName: bracketleft
 Width: 266
 VWidth: 0
 Flags: W
 HStem: -253 90<140 214> 556 90<140 214>
 VStem: 50 164<-253 -163 556 646> 50 90<-163 556>
 LayerCount: 2
+Back
 Fore
 SplineSet
 51 646 m 1xe0
@@ -1439,12 +1549,14 @@ EndChar
 
 StartChar: bracketright
 Encoding: 93 93 48
+GlifName: bracketright
 Width: 266
 VWidth: 0
 Flags: W
 HStem: -249 90<52 126> 559 90<53 126>
 VStem: 52 164<-249 -159 559 649> 126 90<-159 558>
 LayerCount: 2
+Back
 Fore
 SplineSet
 216 650 m 1xd0
@@ -1465,6 +1577,7 @@ EndChar
 
 StartChar: uniFEFB
 Encoding: 65275 65275 49
+GlifName: uniF_E_F_B_
 Width: 388
 VWidth: 1426
 Flags: W
@@ -1520,12 +1633,13 @@ SplineSet
  247 90 l 25
  247 155 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 3-1" uniFEDF uniFE8E
 EndChar
 
 StartChar: uni064D
 Encoding: 1613 1613 50
+GlifName: uni064D_
 Width: 0
 VWidth: 0
 Flags: W
@@ -1561,6 +1675,7 @@ EndChar
 
 StartChar: uni064F
 Encoding: 1615 1615 51
+GlifName: uni064F_
 Width: 0
 VWidth: -698
 Flags: W
@@ -1613,12 +1728,14 @@ EndChar
 
 StartChar: uni0652
 Encoding: 1618 1618 52
+GlifName: uni0652
 Width: 0
 VWidth: 0
 Flags: W
 HStem: 733 50<-46.4719 48.3629> 901 50<-46.7344 44.5361>
 VStem: 62 50<797.515 883.668>
 LayerCount: 2
+Back
 Fore
 SplineSet
 -3 951 m 0
@@ -1636,11 +1753,13 @@ EndChar
 
 StartChar: uni06D2
 Encoding: 1746 1746 53
+GlifName: uni06D_2
 Width: 819
 VWidth: 598
 Flags: W
 HStem: -234 90<161.361 770> 108 90<326.127 447.123>
 LayerCount: 2
+Back
 Fore
 SplineSet
 386 198 m 0
@@ -1667,11 +1786,13 @@ EndChar
 
 StartChar: uniFBAF
 Encoding: 64431 64431 54
+GlifName: uniF_B_A_F_
 Width: 609
 VWidth: 598
 Flags: W
 HStem: -235 90<161.361 610> 0 90<512.329 545> 108 90<323.964 405.995>
 LayerCount: 2
+Back
 Fore
 SplineSet
 367 198 m 4
@@ -1701,12 +1822,14 @@ EndChar
 
 StartChar: uni0646
 Encoding: 1606 1606 55
+GlifName: uni0646
 Width: 531
 VWidth: 0
 Flags: W
 HStem: 0 90<183.602 441> 470 90<255.481 334.519>
 VStem: 50 90<140.602 320> 249 92<476.481 553.519> 441 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 295 470 2
 Refer: 30 1646 N 1 0 0 1 0 0 2
@@ -1717,12 +1840,14 @@ EndChar
 
 StartChar: uni0637
 Encoding: 1591 1591 56
+GlifName: uni0637
 Width: 586
 VWidth: 0
 Flags: W
 HStem: 0 90<50 131.17 230 443> 233 90<337.483 429.29>
 VStem: 138 90<222.012 560> 443 90<90 220.649>
 LayerCount: 2
+Back
 Fore
 SplineSet
 138 560 m 1
@@ -1756,24 +1881,28 @@ EndChar
 
 StartChar: uniFEE6
 Encoding: 65254 65254 57
+GlifName: uniF_E_E_6
 Width: 531
 VWidth: 0
 Flags: W
 HStem: 0 90<183.602 441> 470 90<255.481 334.519>
 VStem: 50 90<140.602 320> 249 92<476.481 553.519> 441 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 55 1606 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFE97
 Encoding: 65175 65175 58
+GlifName: uniF_E_97
 Width: 385
 VWidth: 0
 Flags: W
 HStem: 0 90<0 245> 470 90<94.4806 173.519 248.481 327.519>
 VStem: 88 92<476.481 553.519> 242 92<476.481 553.519> 245 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 163 -1 N 1 0 0 1 211 470 2
 Refer: 148 -1 N 1 0 0 1 0 0 2
@@ -1781,24 +1910,28 @@ EndChar
 
 StartChar: uniFEB8
 Encoding: 65208 65208 59
+GlifName: uniF_E_B_8
 Width: 552
 VWidth: 0
 Flags: W
 HStem: 0 90<0 151 241 306 396 462> 390 90<240.481 319.519 394.481 473.519> 470 90<317.481 396.519>
 VStem: 234 92<396.481 473.519> 236 5<41 90> 311 92<476.481 553.519> 388 92<396.481 473.519> 392 4<41 90> 462 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 92 65207 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEDF
 Encoding: 65247 65247 60
+GlifName: uniF_E_D_F_
 Width: 264
 VWidth: 0
 Flags: W
 HStem: 0 90<0 124>
 VStem: 124 90<90 560>
 LayerCount: 2
+Back
 Fore
 SplineSet
 124 560 m 5
@@ -1814,12 +1947,14 @@ EndChar
 
 StartChar: uniFEB3
 Encoding: 65203 65203 61
+GlifName: uniF_E_B_3
 Width: 602
 VWidth: 0
 Flags: W
 HStem: 0 90<0 151 241 306 396 462>
 VStem: 236 5<41 90> 392 4<41 90> 462 90<90 320>
 LayerCount: 2
+Back
 Fore
 SplineSet
 462 320 m 1
@@ -1851,12 +1986,14 @@ EndChar
 
 StartChar: uniFE9B
 Encoding: 65179 65179 62
+GlifName: uniF_E_9B_
 Width: 387
 VWidth: 0
 Flags: W
 HStem: 0 90<0 245> 390 90<97.4806 176.519 251.481 330.519> 470 90<174.481 253.519>
 VStem: 91 92<396.481 473.519> 168 92<476.481 553.519> 245 90<90 320> 245 92<396.481 473.519>
 LayerCount: 2
+Back
 Fore
 Refer: 164 -1 N 1 0 0 1 214 390 2
 Refer: 148 -1 N 1 0 0 1 0 0 2
@@ -1864,12 +2001,14 @@ EndChar
 
 StartChar: uniFE91
 Encoding: 65169 65169 63
+GlifName: uniF_E_91
 Width: 298
 VWidth: 0
 Flags: W
 HStem: -151 90<81.4806 160.519> 0 90<0 158>
 VStem: 75 92<-144.519 -67.4806> 158 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 121 -151 2
 Refer: 149 -1 N 1 0 0 1 0 0 2
@@ -1877,12 +2016,14 @@ EndChar
 
 StartChar: uniFEE7
 Encoding: 65255 65255 64
+GlifName: uniF_E_E_7
 Width: 298
 VWidth: 0
 Flags: W
 HStem: 0 90<0 158> 470 90<85.4806 164.519>
 VStem: 79 92<476.481 553.519> 158 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 125 470 2
 Refer: 149 -1 N 1 0 0 1 0 0 2
@@ -1890,12 +2031,14 @@ EndChar
 
 StartChar: uniFEF3
 Encoding: 65267 65267 65
+GlifName: uniF_E_F_3
 Width: 385
 VWidth: 0
 Flags: W
 HStem: -166 90<85.4806 164.519 239.481 318.519> 0 90<0 245>
 VStem: 79 92<-159.519 -82.4806> 233 92<-159.519 -82.4806> 245 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 163 -1 N 1 0 0 1 202 -166 2
 Refer: 148 -1 N 1 0 0 1 0 0 2
@@ -1903,36 +2046,42 @@ EndChar
 
 StartChar: uniFEEE
 Encoding: 65262 65262 66
+GlifName: uniF_E_E_E_
 Width: 374
 VWidth: 0
 Flags: W
 HStem: -170 90<50 259.406> 0 90<159.153 284> 233 90<194.358 276.096>
 VStem: 284 90<-55.4216 0 90 225.027>
 LayerCount: 2
+Back
 Fore
 Refer: 69 1608 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEAE
 Encoding: 65198 65198 67
+GlifName: uniF_E_A_E_
 Width: 299
 VWidth: 0
 Flags: W
 HStem: -170 90<50 185.2>
 VStem: 209 90<-55.2925 160>
 LayerCount: 2
+Back
 Fore
 Refer: 68 1585 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0631
 Encoding: 1585 1585 68
+GlifName: uni0631
 Width: 349
 VWidth: 0
 Flags: W
 HStem: -170 90<50 185.2>
 VStem: 209 90<-55.2925 160>
 LayerCount: 2
+Back
 Fore
 SplineSet
 299 160 m 1
@@ -1954,12 +2103,14 @@ EndChar
 
 StartChar: uni0648
 Encoding: 1608 1608 69
+GlifName: uni0648
 Width: 424
 VWidth: 0
 Flags: W
 HStem: -170 90<50 259.406> 0 90<159.153 284> 233 90<194.358 276.096>
 VStem: 284 90<-55.4216 0 90 225.027>
 LayerCount: 2
+Back
 Fore
 SplineSet
 374 0 m 2
@@ -1988,12 +2139,14 @@ EndChar
 
 StartChar: uni0632
 Encoding: 1586 1586 70
+GlifName: uni0632
 Width: 351
 VWidth: 0
 Flags: W
 HStem: -170 90<50 185.2> 470 90<216.481 295.519>
 VStem: 209 90<-55.2925 160> 210 92<476.481 553.519>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 256 470 2
 Refer: 68 1585 N 1 0 0 1 0 0 2
@@ -2002,12 +2155,14 @@ EndChar
 
 StartChar: uni0638
 Encoding: 1592 1592 71
+GlifName: uni0638
 Width: 586
 VWidth: 0
 Flags: W
 HStem: 0 90<50 131.17 230 443> 233 90<337.483 429.29> 470 90<305.481 384.519>
 VStem: 138 90<222.012 560> 299 92<476.481 553.519> 443 90<90 220.649>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 345 470 2
 Refer: 56 1591 N 1 0 0 1 0 0 2
@@ -2018,12 +2173,14 @@ EndChar
 
 StartChar: uni0630
 Encoding: 1584 1584 72
+GlifName: uni0630
 Width: 413
 VWidth: 0
 Flags: W
 HStem: 0 90<50 273> 470 90<108.481 187.519>
 VStem: 102 92<476.481 553.519> 273 90<90 155.077>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 148 470 2
 Refer: 37 1583 N 1 0 0 1 0 0 2
@@ -2032,12 +2189,14 @@ EndChar
 
 StartChar: uni0622
 Encoding: 1570 1570 73
+GlifName: uni0622
 Width: 191
 VWidth: 0
 Flags: W
 HStem: 0 21<50 74> 89 1<50 140>
 VStem: 50 90<59.7382 560>
 LayerCount: 2
+Back
 Fore
 Refer: 9 1575 N 1 0 0 1 0 0 2
 Substitution2: "'fina' Terminal Forms in Arabic lookup 2-1" uniFE82
@@ -2045,12 +2204,14 @@ EndChar
 
 StartChar: uni0623
 Encoding: 1571 1571 74
+GlifName: uni0623
 Width: 191
 VWidth: 0
 Flags: W
 HStem: 0 21<50 74> 89 1<50 140> 600 66<14 69> 694 66<128 178>
 VStem: 14 139<602.028 665.5> 45 133<695.25 757.972> 50 90<59.7382 560>
 LayerCount: 2
+Back
 Fore
 Refer: 142 -1 N 1 0 0 1 96 600 2
 Refer: 9 1575 N 1 0 0 1 0 0 2
@@ -2059,12 +2220,14 @@ EndChar
 
 StartChar: uni0625
 Encoding: 1573 1573 75
+GlifName: uni0625
 Width: 191
 VWidth: 0
 Flags: W
 HStem: -200 66<-6 49> -106 66<108 158> 0 21<50 74> 89 1<50 140>
 VStem: -6 139<-197.972 -134.5> 25 133<-104.75 -42.0277> 50 90<59.7382 560>
 LayerCount: 2
+Back
 Fore
 Refer: 142 -1 N 1 0 0 1 76 -200 2
 Refer: 9 1575 N 1 0 0 1 0 0 2
@@ -2073,12 +2236,14 @@ EndChar
 
 StartChar: uni0624
 Encoding: 1572 1572 76
+GlifName: uni0624
 Width: 424
 VWidth: 0
 Flags: W
 HStem: -170 90<50 259.406> 0 90<159.153 284> 233 90<194.358 276.096> 423 66<165 220> 517 66<279 329>
 VStem: 165 139<425.028 488.5> 196 133<518.25 580.972> 284 90<-55.4216 0 90 225.027>
 LayerCount: 2
+Back
 Fore
 Refer: 142 -1 N 1 0 0 1 247 423 2
 Refer: 69 1608 N 1 0 0 1 0 0 2
@@ -2087,12 +2252,14 @@ EndChar
 
 StartChar: uni0626
 Encoding: 1574 1574 77
+GlifName: uni0626
 Width: 552
 VWidth: 0
 Flags: W
 HStem: 0 90<159.201 399.002> 237 91<395.411 502> 418 66<164 219> 512 66<278 328>
 VStem: 50 90<109.598 322> 164 139<420.028 483.5> 195 133<513.25 575.972>
 LayerCount: 2
+Back
 Fore
 Refer: 142 -1 S 1 0 0 1 246 418 2
 Refer: 38 1609 N 1 0 0 1 0 0 2
@@ -2103,12 +2270,14 @@ EndChar
 
 StartChar: uni0647
 Encoding: 1607 1607 78
+GlifName: uni0647
 Width: 420
 VWidth: 654
 Flags: W
 HStem: 0 90<139.82 280>
 VStem: 280 90<90 281>
 LayerCount: 2
+Back
 Fore
 SplineSet
 212 350 m 1
@@ -2136,12 +2305,14 @@ EndChar
 
 StartChar: uni064A
 Encoding: 1610 1610 79
+GlifName: uni064A_
 Width: 552
 VWidth: 0
 Flags: W
 HStem: -130 90<159.481 238.519 313.481 392.519> 0 90<159.201 399.002> 237 91<395.411 502>
 VStem: 50 90<109.598 322> 153 92<-123.519 -46.4806> 307 92<-123.519 -46.4806>
 LayerCount: 2
+Back
 Fore
 Refer: 163 -1 S 1 0 0 1 276 -130 2
 Refer: 38 1609 N 1 0 0 1 0 0 2
@@ -2152,12 +2323,14 @@ EndChar
 
 StartChar: uni0641
 Encoding: 1601 1601 80
+GlifName: uni0641
 Width: 741
 VWidth: -480
 Flags: W
 HStem: -170 90<149.716 601> 2 89<468.842 601> 470 90<488.481 567.519>
 VStem: 52 90<-72.889 82> 482 92<476.481 553.519> 601 90<-80 0 90 205.927>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 528 470 2
 Refer: 137 1697 N 1 0 0 1 0 0 2
@@ -2168,12 +2341,14 @@ EndChar
 
 StartChar: uni0642
 Encoding: 1602 1602 81
+GlifName: uni0642
 Width: 672
 VWidth: 0
 Flags: W
 HStem: -170 90<144.974 532> 2 89<397.981 532> 470 90<344.481 423.519 498.481 577.519>
 VStem: 50 90<-75.0262 156> 338 92<476.481 553.519> 492 92<476.481 553.519> 532 90<-80 0 90 205.927>
 LayerCount: 2
+Back
 Fore
 Refer: 163 -1 S 1 0 0 1 461 470 2
 Refer: 136 1647 N 1 0 0 1 0 0 2
@@ -2184,12 +2359,14 @@ EndChar
 
 StartChar: uni0645
 Encoding: 1605 1605 82
+GlifName: uni0645
 Width: 586
 VWidth: 0
 Flags: W
 HStem: 0 90<107.702 222 312 439.078>
 VStem: 139 1<0 90> 222 90<90 235.491>
 LayerCount: 2
+Back
 Fore
 SplineSet
 50 90 m 1
@@ -2224,60 +2401,70 @@ EndChar
 
 StartChar: uniFE8E
 Encoding: 65166 65166 83
+GlifName: uniF_E_8E_
 Width: 141
 VWidth: 0
 Flags: W
 HStem: 0 21<117 141> 89 1<51 141>
 VStem: 51 90<59.7382 560>
 LayerCount: 2
+Back
 Fore
 Refer: 9 1575 N -1 0 0 1 191 0 2
 EndChar
 
 StartChar: uniFE92
 Encoding: 65170 65170 84
+GlifName: uniF_E_92
 Width: 248
 VWidth: 0
 Flags: W
 HStem: -151 90<81.4806 160.519> 0 90<0 158>
 VStem: 75 92<-144.519 -67.4806> 158 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 63 65169 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFE98
 Encoding: 65176 65176 85
+GlifName: uniF_E_98
 Width: 335
 VWidth: 0
 Flags: W
 HStem: 0 90<0 245> 470 90<94.4806 173.519 248.481 327.519>
 VStem: 88 92<476.481 553.519> 242 92<476.481 553.519> 245 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 58 65175 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFE9C
 Encoding: 65180 65180 86
+GlifName: uniF_E_9C_
 Width: 337
 VWidth: 0
 Flags: W
 HStem: 0 90<0 245> 390 90<97.4806 176.519 251.481 330.519> 470 90<174.481 253.519>
 VStem: 91 92<396.481 473.519> 168 92<476.481 553.519> 245 90<90 320> 245 92<396.481 473.519>
 LayerCount: 2
+Back
 Fore
 Refer: 62 65179 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEA0
 Encoding: 65184 65184 87
+GlifName: uniF_E_A_0
 Width: 427
 VWidth: 0
 Flags: W
 HStem: -163 90<239.481 318.519> 0 90<0 315>
 VStem: 233 92<-156.519 -79.4806>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 279 -163 2
 Refer: 24 65187 N 1 0 0 1 0 0 2
@@ -2285,59 +2472,69 @@ EndChar
 
 StartChar: uniFEA4
 Encoding: 65188 65188 88
+GlifName: uniF_E_A_4
 Width: 427
 VWidth: 0
 Flags: W
 HStem: 0 90<0 315>
 LayerCount: 2
+Back
 Fore
 Refer: 24 65187 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEA8
 Encoding: 65192 65192 89
+GlifName: uniF_E_A_8
 Width: 427
 VWidth: 0
 Flags: W
 HStem: 0 90<0 315> 420 90<132.481 211.519>
 VStem: 126 92<426.481 503.519>
 LayerCount: 2
+Back
 Fore
 Refer: 25 65191 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEB0
 Encoding: 65200 65200 90
+GlifName: uniF_E_B_0
 Width: 301
 VWidth: 0
 Flags: W
 HStem: -170 90<50 185.2> 470 90<216.481 295.519>
 VStem: 209 90<-55.2925 160> 210 92<476.481 553.519>
 LayerCount: 2
+Back
 Fore
 Refer: 70 1586 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEB4
 Encoding: 65204 65204 91
+GlifName: uniF_E_B_4
 Width: 552
 VWidth: 0
 Flags: W
 HStem: 0 90<0 151 241 306 396 462>
 VStem: 236 5<41 90> 392 4<41 90> 462 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 61 65203 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEB7
 Encoding: 65207 65207 92
+GlifName: uniF_E_B_7
 Width: 602
 VWidth: 0
 Flags: W
 HStem: 0 90<0 151 241 306 396 462> 390 90<240.481 319.519 394.481 473.519> 470 90<317.481 396.519>
 VStem: 234 92<396.481 473.519> 236 5<41 90> 311 92<476.481 553.519> 388 92<396.481 473.519> 392 4<41 90> 462 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 164 -1 N 1 0 0 1 357 390 2
 Refer: 61 65203 N 1 0 0 1 0 0 2
@@ -2345,60 +2542,70 @@ EndChar
 
 StartChar: uniFEBC
 Encoding: 65212 65212 93
+GlifName: uniF_E_B_C_
 Width: 551
 VWidth: 0
 Flags: W
 HStem: 0 90<0 73 136 150.117 248 461> 84 6<73 136> 233 90<355.483 447.29>
 VStem: 73 90<84 236> 461 90<90 220.649>
 LayerCount: 2
+Back
 Fore
 Refer: 19 65211 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEC0
 Encoding: 65216 65216 94
+GlifName: uniF_E_C_0
 Width: 551
 VWidth: 0
 Flags: W
 HStem: 0 90<0 73 136 150.117 248 461> 84 6<73 136> 233 90<355.483 447.29> 470 90<156.481 235.519>
 VStem: 73 90<84 236> 150 92<476.481 553.519> 461 90<90 220.649>
 LayerCount: 2
+Back
 Fore
 Refer: 20 65215 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEE4
 Encoding: 65252 65252 95
+GlifName: uniF_E_E_4
 Width: 397
 VWidth: 0
 Flags: W
 HStem: 0 90<0 83 172 298.071>
 VStem: 83 89<90 236.659>
 LayerCount: 2
+Back
 Fore
 Refer: 40 65251 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEE8
 Encoding: 65256 65256 96
+GlifName: uniF_E_E_8
 Width: 248
 VWidth: 0
 Flags: W
 HStem: 0 90<0 158> 470 90<85.4806 164.519>
 VStem: 79 92<476.481 553.519> 158 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 64 65255 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEF2
 Encoding: 65266 65266 97
+GlifName: uniF_E_F_2
 Width: 502
 VWidth: 0
 Flags: W
 HStem: -290 90<159.481 238.519 313.481 392.519> -160 90<159.201 399.002> 77 91<395.411 502>
 VStem: 50 90<-50.4022 162> 153 92<-283.519 -206.481> 307 92<-283.519 -206.481>
 LayerCount: 2
+Back
 Fore
 Refer: 163 -1 N 1 0 0 1 276 -290 2
 Refer: 39 65264 N 1 0 0 1 0 0 2
@@ -2406,77 +2613,89 @@ EndChar
 
 StartChar: uniFEF9
 Encoding: 65273 65273 98
+GlifName: uniF_E_F_9
 Width: 388
 VWidth: 1426
 Flags: W
 HStem: 0 90<50 129.234 146 247>
 VStem: 248 90<90 155 277 560>
 LayerCount: 2
+Back
 Fore
 Refer: 49 65275 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 3-1" uniFEDF uniFE88
 EndChar
 
 StartChar: uniFEF7
 Encoding: 65271 65271 99
+GlifName: uniF_E_F_7
 Width: 388
 VWidth: 1426
 Flags: W
 HStem: 0 90<50 129.234 146 247>
 VStem: 248 90<90 155 277 560>
 LayerCount: 2
+Back
 Fore
 Refer: 49 65275 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 3-1" uniFEDF uniFE84
 EndChar
 
 StartChar: uniFEF5
 Encoding: 65269 65269 100
+GlifName: uniF_E_F_5
 Width: 388
 VWidth: 1426
 Flags: W
 HStem: 0 90<50 129.234 146 247>
 VStem: 248 90<90 155 277 560>
 LayerCount: 2
+Back
 Fore
 Refer: 49 65275 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 3-1" uniFEDF uniFE82
 EndChar
 
 StartChar: uniFEF4
 Encoding: 65268 65268 101
+GlifName: uniF_E_F_4
 Width: 335
 VWidth: 0
 Flags: W
 HStem: -166 90<85.4806 164.519 239.481 318.519> 0 90<0 245>
 VStem: 79 92<-159.519 -82.4806> 233 92<-159.519 -82.4806> 245 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 65 65267 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEDC
 Encoding: 65244 65244 102
+GlifName: uniF_E_D_C_
 Width: 478
 VWidth: 84
-Flags: W
+Flags: HW
 HStem: 0 90<0 384> 482 90<367.117 471>
 LayerCount: 2
+Back
 Fore
 Refer: 21 65243 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFE8A
 Encoding: 65162 65162 103
+GlifName: uniF_E_8A_
 Width: 502
 VWidth: 0
 Flags: W
 HStem: -160 90<159.201 399.002> 77 91<395.411 502> 258 66<164 219> 352 66<278 328>
 VStem: 50 90<-50.4022 162> 164 139<260.028 323.5> 195 133<353.25 415.972>
 LayerCount: 2
+Back
 Fore
 Refer: 142 -1 N 1 0 0 1 246 258 2
 Refer: 39 65264 N 1 0 0 1 0 0 2
@@ -2484,36 +2703,42 @@ EndChar
 
 StartChar: uniFE86
 Encoding: 65158 65158 104
+GlifName: uniF_E_86
 Width: 374
 VWidth: 0
 Flags: W
 HStem: -170 90<50 259.406> 0 90<159.153 284> 233 90<194.358 276.096> 423 66<165 220> 517 66<279 329>
 VStem: 165 139<425.028 488.5> 196 133<518.25 580.972> 284 90<-55.4216 0 90 225.027>
 LayerCount: 2
+Back
 Fore
 Refer: 76 1572 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFE82
 Encoding: 65154 65154 105
+GlifName: uniF_E_82
 Width: 141
 VWidth: 0
 Flags: W
 HStem: 0 21<117 141> 89 1<51 141>
 VStem: 51 90<59.7382 560>
 LayerCount: 2
+Back
 Fore
 Refer: 83 65166 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFE84
 Encoding: 65156 65156 106
+GlifName: uniF_E_84
 Width: 141
 VWidth: 0
 Flags: W
 HStem: 0 21<117 141> 89 1<51 141> 600 66<14 69> 694 66<128 178>
 VStem: 14 139<602.028 665.5> 45 133<695.25 757.972> 51 90<59.7382 560>
 LayerCount: 2
+Back
 Fore
 Refer: 142 -1 N 1 0 0 1 96 600 2
 Refer: 83 65166 N 1 0 0 1 0 0 2
@@ -2521,12 +2746,14 @@ EndChar
 
 StartChar: uniFE88
 Encoding: 65160 65160 107
+GlifName: uniF_E_88
 Width: 141
 VWidth: 0
 Flags: W
 HStem: -200 66<-6 49> -106 66<108 158> 0 21<117 141> 89 1<51 141>
 VStem: -6 139<-197.972 -134.5> 25 133<-104.75 -42.0277> 51 90<59.7382 560>
 LayerCount: 2
+Back
 Fore
 Refer: 142 -1 N 1 0 0 1 76 -200 2
 Refer: 83 65166 N 1 0 0 1 0 0 2
@@ -2534,12 +2761,14 @@ EndChar
 
 StartChar: uni064E
 Encoding: 1614 1614 108
+GlifName: uni064E_
 Width: 0
 VWidth: -80
 Flags: W
 HStem: 555 270
 VStem: -134 268
 LayerCount: 2
+Back
 Fore
 SplineSet
 98 825 m 1
@@ -2552,12 +2781,14 @@ EndChar
 
 StartChar: uni0650
 Encoding: 1616 1616 109
+GlifName: uni0650
 Width: 0
 VWidth: -880
 Flags: W
 HStem: -1045 270
 VStem: -134 268
 LayerCount: 2
+Back
 Fore
 SplineSet
 98 -775 m 5
@@ -2570,324 +2801,380 @@ EndChar
 
 StartChar: uni0651
 Encoding: 1617 1617 110
+GlifName: uni0651
 Width: 0
 VWidth: 0
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: space
 Encoding: 32 32 111
+GlifName: space
 Width: 100
 VWidth: 0
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: uniFEB2
 Encoding: 65202 65202 112
+GlifName: uniF_E_B_2
 Width: 767
 VWidth: 0
 Flags: W
 HStem: -169 90<142 365> 0 90<451 521 611 677>
 VStem: 52 90<-79 160> 451 4<0 90> 607 4<41 90> 677 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 10 1587 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEB6
 Encoding: 65206 65206 113
+GlifName: uniF_E_B_6
 Width: 767
 VWidth: 0
 Flags: W
 HStem: -169 90<142 365> 0 90<451 521 611 677> 390 90<455.481 534.519 609.481 688.519> 470 90<532.481 611.519>
 VStem: 52 90<-79 160> 449 92<396.481 473.519> 451 4<0 90> 526 92<476.481 553.519> 603 92<396.481 473.519> 607 4<41 90> 677 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 11 1588 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEBA
 Encoding: 65210 65210 114
+GlifName: uniF_E_B_A_
 Width: 840
 VWidth: 0
 Flags: W
 HStem: -169 90<142 365> 0 90<411 425 537 750> 233 90<644.483 736.29>
 VStem: 52 90<-79 160> 411 44<0 90> 750 90<90 220.649>
 LayerCount: 2
+Back
 Fore
 Refer: 12 1589 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEBE
 Encoding: 65214 65214 115
+GlifName: uniF_E_B_E_
 Width: 840
 VWidth: 0
 Flags: W
 HStem: -169 90<142 365> 0 90<411 425 537 750> 233 90<644.483 736.29> 370 90<449.481 528.519>
 VStem: 52 90<-79 160> 411 44<0 90> 443 92<376.481 453.519> 750 90<90 220.649>
 LayerCount: 2
+Back
 Fore
 Refer: 13 1590 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEC2
 Encoding: 65218 65218 116
+GlifName: uniF_E_C_2
 Width: 533
 VWidth: 0
 Flags: W
 HStem: 0 90<50 131.17 230 443> 233 90<337.483 429.29>
 VStem: 138 90<222.012 560> 443 90<90 220.649>
 LayerCount: 2
+Back
 Fore
 Refer: 56 1591 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEC6
 Encoding: 65222 65222 117
+GlifName: uniF_E_C_6
 Width: 533
 VWidth: 0
 Flags: W
 HStem: 0 90<50 131.17 230 443> 233 90<337.483 429.29> 470 90<305.481 384.519>
 VStem: 138 90<222.012 560> 299 92<476.481 553.519> 443 90<90 220.649>
 LayerCount: 2
+Back
 Fore
 Refer: 71 1592 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFECA
 Encoding: 65226 65226 118
+GlifName: uniF_E_C_A_
 Width: 371
 VWidth: 0
 Flags: W
 HStem: -247 90<140.135 371> 0 90<140.057 166 267 371> 258 90<190.781 368.615>
 VStem: 50 90<-156.697 -2.32254>
 LayerCount: 2
+Back
 Fore
 Refer: 17 1593 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFECE
 Encoding: 65230 65230 119
+GlifName: uniF_E_C_E_
 Width: 371
 VWidth: 0
 Flags: W
 HStem: -247 90<140.135 371> 0 90<140.057 166 267 371> 258 90<190.781 368.615> 470 90<138.481 217.519>
 VStem: 50 90<-156.697 -2.32254> 132 92<476.481 553.519>
 LayerCount: 2
+Back
 Fore
 Refer: 18 1594 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEAA
 Encoding: 65194 65194 120
+GlifName: uniF_E_A_A_
 Width: 363
 VWidth: 0
 Flags: W
 HStem: 0 90<50 273>
 VStem: 273 90<90 155.077>
 LayerCount: 2
+Back
 Fore
 Refer: 37 1583 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEAC
 Encoding: 65196 65196 121
+GlifName: uniF_E_A_C_
 Width: 363
 VWidth: 0
 Flags: W
 HStem: 0 90<50 273> 470 90<108.481 187.519>
 VStem: 102 92<476.481 553.519> 273 90<90 155.077>
 LayerCount: 2
+Back
 Fore
 Refer: 72 1584 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFE94
 Encoding: 65172 65172 122
+GlifName: uniF_E_94
 Width: 370
 VWidth: 654
 Flags: W
 HStem: 0 90<139.82 280> 470 90<130.481 209.519 284.481 363.519>
 VStem: 124 92<476.481 553.519> 278 92<476.481 553.519> 280 90<90 281>
 LayerCount: 2
+Back
 Fore
 Refer: 29 1577 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEEA
 Encoding: 65258 65258 123
+GlifName: uniF_E_E_A_
 Width: 370
 VWidth: 654
 Flags: W
 HStem: 0 90<139.82 280>
 VStem: 280 90<90 281>
 LayerCount: 2
+Back
 Fore
 Refer: 78 1607 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEF6
 Encoding: 65270 65270 124
+GlifName: uniF_E_F_6
 Width: 338
 VWidth: 1426
 Flags: W
 HStem: 0 90<50 129.234 146 247>
 VStem: 248 90<90 155 277 560>
 LayerCount: 2
+Back
 Fore
 Refer: 49 65275 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 3-1" uniFEE0 uniFE82
 EndChar
 
 StartChar: uniFEF8
 Encoding: 65272 65272 125
+GlifName: uniF_E_F_8
 Width: 338
 VWidth: 1426
 Flags: W
 HStem: 0 90<50 129.234 146 247>
 VStem: 248 90<90 155 277 560>
 LayerCount: 2
+Back
 Fore
 Refer: 49 65275 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 3-1" uniFEE0 uniFE84
 EndChar
 
 StartChar: uniFEFA
 Encoding: 65274 65274 126
+GlifName: uniF_E_F_A_
 Width: 338
 VWidth: 1426
 Flags: W
 HStem: 0 90<50 129.234 146 247>
 VStem: 248 90<90 155 277 560>
 LayerCount: 2
+Back
 Fore
 Refer: 49 65275 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 3-1" uniFEE0 uniFE88
 EndChar
 
 StartChar: uniFEE0
 Encoding: 65248 65248 127
+GlifName: uniF_E_E_0
 Width: 214
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 0 90<0 124>
 VStem: 124 90<90 560>
 LayerCount: 2
+Back
 Fore
 Refer: 60 65247 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEFC
 Encoding: 65276 65276 128
+GlifName: uniF_E_F_C_
 Width: 338
 VWidth: 1426
 Flags: W
 HStem: 0 90<50 129.234 146 247>
 VStem: 248 90<90 155 277 560>
 LayerCount: 2
+Back
 Fore
 Refer: 49 65275 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 3-1" uniFEE0 uniFE8E
 EndChar
 
 StartChar: uniFEDE
 Encoding: 65246 65246 129
+GlifName: uniF_E_D_E_
 Width: 452
 VWidth: 0
 Flags: W
 HStem: -160 90<140 362>
 VStem: 50 90<-70 90> 362 90<-70 560>
 LayerCount: 2
+Back
 Fore
 Refer: 36 1604 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFE90
 Encoding: 65168 65168 130
+GlifName: uniF_E_90
 Width: 531
 VWidth: -468
 Flags: W
 HStem: -151 90<294.481 373.519> 0 90<183.602 441>
 VStem: 50 90<140.602 320> 288 92<-144.519 -67.4806> 441 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 26 1576 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFE96
 Encoding: 65174 65174 131
+GlifName: uniF_E_96
 Width: 531
 VWidth: -468
 Flags: W
 HStem: 0 90<183.602 441> 470 90<185.481 264.519 339.481 418.519>
 VStem: 50 90<140.602 320> 179 92<476.481 553.519> 333 92<476.481 553.519> 441 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 27 1578 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFE9A
 Encoding: 65178 65178 132
+GlifName: uniF_E_9A_
 Width: 531
 VWidth: -468
 Flags: W
 HStem: 0 90<183.602 441> 390 90<186.481 265.519 340.481 419.519> 470 90<263.481 342.519>
 VStem: 50 90<140.602 320> 180 92<396.481 473.519> 257 92<476.481 553.519> 334 92<396.481 473.519> 441 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 28 1579 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFE9E
 Encoding: 65182 65182 133
+GlifName: uniF_E_9E_
 Width: 447
 VWidth: 0
 Flags: W
 HStem: -247 90<140.135 371> -125 90<214.481 293.519> 0 90<140.057 335>
 VStem: 50 90<-156.697 -2.32254> 208 92<-118.519 -41.4806>
 LayerCount: 2
+Back
 Fore
 Refer: 14 1580 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEA2
 Encoding: 65186 65186 134
+GlifName: uniF_E_A_2
 Width: 447
 VWidth: 0
 Flags: W
 HStem: -247 90<140.135 371> 0 90<140.057 335>
 VStem: 50 90<-156.697 -2.32254>
 LayerCount: 2
+Back
 Fore
 Refer: 15 1581 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEA6
 Encoding: 65190 65190 135
+GlifName: uniF_E_A_6
 Width: 447
 VWidth: 0
 Flags: W
 HStem: -247 90<140.135 371> 0 90<140.057 335> 420 90<152.481 231.519>
 VStem: 50 90<-156.697 -2.32254> 146 92<426.481 503.519>
 LayerCount: 2
+Back
 Fore
 Refer: 16 1582 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni066F
 Encoding: 1647 1647 136
+GlifName: uni066F_
 Width: 672
 VWidth: 0
 Flags: W
 HStem: -170 90<144.974 532> 2 89<397.981 532>
 VStem: 50 90<-75.0262 156> 532 90<-80 0 90 205.927>
 LayerCount: 2
+Back
 Fore
 SplineSet
 439 91 m 0
@@ -2917,12 +3204,14 @@ EndChar
 
 StartChar: uni06A1
 Encoding: 1697 1697 137
+GlifName: uni06A_1
 Width: 741
 VWidth: -480
 Flags: W
 HStem: -170 90<149.716 601> 2 89<468.842 601>
 VStem: 52 90<-72.889 82> 601 90<-80 0 90 205.927>
 LayerCount: 2
+Back
 Fore
 SplineSet
 509 91 m 0
@@ -2954,12 +3243,14 @@ EndChar
 
 StartChar: uniFECF
 Encoding: 65231 65231 138
+GlifName: uniF_E_C_F_
 Width: 391
 VWidth: 0
 Flags: W
 HStem: 0 90<0 128.922 217.002 341> 258 90<160.781 338.615> 470 90<108.481 187.519>
 VStem: 102 92<476.481 553.519>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 148 470 2
 Refer: 41 65227 N 1 0 0 1 0 0 3
@@ -2967,47 +3258,55 @@ EndChar
 
 StartChar: uniFECC
 Encoding: 65228 65228 139
+GlifName: uniF_E_C_C_
 Width: 341
 VWidth: 0
 Flags: W
 HStem: 0 90<0 128.922 217.002 341> 258 90<160.781 338.615>
 LayerCount: 2
+Back
 Fore
 Refer: 41 65227 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFED0
 Encoding: 65232 65232 140
+GlifName: uniF_E_D_0
 Width: 341
 VWidth: 0
 Flags: W
 HStem: 0 90<0 128.922 217.002 341> 258 90<160.781 338.615> 470 90<108.481 187.519>
 VStem: 102 92<476.481 553.519>
 LayerCount: 2
+Back
 Fore
 Refer: 138 65231 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEDA
 Encoding: 65242 65242 141
+GlifName: uniF_E_D_A_
 Width: 460
 VWidth: 0
 Flags: W
 HStem: 0 90<98 370> 238 66<134 189> 332 66<248 298>
 VStem: 98 10<0 90> 134 139<240.028 303.5> 165 133<333.25 395.972> 370 90<90 560>
 LayerCount: 2
+Back
 Fore
 Refer: 35 1603 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: smallhamza
 Encoding: 65536 -1 142
+GlifName: smallhamza
 Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 66<-82 -27> 94 66<32 82>
 VStem: -82 139<2.02771 65.5> -51 133<95.25 157.972>
 LayerCount: 2
+Back
 Fore
 SplineSet
 82 160 m 1xd0
@@ -3028,12 +3327,14 @@ EndChar
 
 StartChar: uni0621
 Encoding: 1569 1569 143
+GlifName: uni0621
 Width: 284
 VWidth: 0
 Flags: W
 HStem: 0 66<50 125> 134 66<164 234>
 VStem: 50 184
 LayerCount: 2
+Back
 Fore
 SplineSet
 234 200 m 1
@@ -3052,60 +3353,70 @@ EndChar
 
 StartChar: uniFEC3
 Encoding: 65219 65219 144
+GlifName: uniF_E_C_3
 Width: 533
 VWidth: 0
 Flags: W
 HStem: 0 90<0 81.1703 180 393> 233 90<287.483 379.29>
 VStem: 88 90<222.012 560> 393 90<90 220.649>
 LayerCount: 2
+Back
 Fore
 Refer: 56 1591 N 1 0 0 1 -50 0 2
 EndChar
 
 StartChar: uniFEC4
 Encoding: 65220 65220 145
+GlifName: uniF_E_C_4
 Width: 483
 VWidth: 0
 Flags: W
 HStem: 0 90<0 81.1703 180 393> 233 90<287.483 379.29>
 VStem: 88 90<222.012 560> 393 90<90 220.649>
 LayerCount: 2
+Back
 Fore
 Refer: 56 1591 N 1 0 0 1 -50 0 2
 EndChar
 
 StartChar: uniFEC7
 Encoding: 65223 65223 146
+GlifName: uniF_E_C_7
 Width: 533
 VWidth: 0
 Flags: W
 HStem: 0 90<0 81.1703 180 393> 233 90<287.483 379.29> 470 90<255.481 334.519>
 VStem: 88 90<222.012 560> 249 92<476.481 553.519> 393 90<90 220.649>
 LayerCount: 2
+Back
 Fore
 Refer: 71 1592 N 1 0 0 1 -50 0 2
 EndChar
 
 StartChar: uniFEC8
 Encoding: 65224 65224 147
+GlifName: uniF_E_C_8
 Width: 483
 VWidth: 0
 Flags: W
 HStem: 0 90<0 81.1703 180 393> 233 90<287.483 379.29> 470 90<255.481 334.519>
 VStem: 88 90<222.012 560> 249 92<476.481 553.519> 393 90<90 220.649>
 LayerCount: 2
+Back
 Fore
 Refer: 71 1592 N 1 0 0 1 -50 0 2
 EndChar
 
 StartChar: initialbaa
 Encoding: 65537 -1 148
+GlifName: initialbaa
 Width: 385
 VWidth: 0
 Flags: W
 HStem: 0 90<0 245>
 VStem: 245 90<90 320>
 LayerCount: 2
+Back
 Fore
 SplineSet
 245 320 m 1
@@ -3121,12 +3432,14 @@ EndChar
 
 StartChar: narrowinitialbaa
 Encoding: 65538 -1 149
+GlifName: narrowinitialbaa
 Width: 298
 VWidth: 0
 Flags: W
 HStem: 0 90<0 158>
 VStem: 158 90<90 320>
 LayerCount: 2
+Back
 Fore
 SplineSet
 158 320 m 1
@@ -3142,152 +3455,172 @@ EndChar
 
 StartChar: uniFC8F
 Encoding: 64655 64655 150
+GlifName: uniF_C_8F_
 Width: 609
 VWidth: 0
 Flags: W
 HStem: -290 90<168.481 247.519 322.481 401.519> -140 90<159.499 404.498> 0 21<585.5 609> 165 90<443.469 508.816> 470 90<411.481 490.519>
 VStem: 51 90<-30.8035 183> 162 92<-283.519 -206.481> 316 92<-283.519 -206.481> 405 92<476.481 553.519> 519 90<59.5024 160.756>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 451 470 2
 Refer: 163 -1 N 1 0 0 1 285 -290 2
 Refer: 161 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 4-1" uniFEE8 uniFEF2
 EndChar
 
 StartChar: uniFC74
 Encoding: 64628 64628 151
+GlifName: uniF_C_74
 Width: 609
 VWidth: 0
 Flags: W
 HStem: -140 90<159.499 404.498> 0 21<585.5 609> 165 90<443.469 508.816> 470 90<334.481 413.519 488.481 567.519>
 VStem: 51 90<-30.8035 183> 328 92<476.481 553.519> 482 92<476.481 553.519> 519 90<59.5024 160.756>
 LayerCount: 2
+Back
 Fore
 Refer: 163 -1 N 1 0 0 1 451 470 2
 Refer: 161 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 4-1" uniFE98 uniFEF0
 EndChar
 
 StartChar: uniFC75
 Encoding: 64629 64629 152
+GlifName: uniF_C_75
 Width: 609
 VWidth: 0
 Flags: W
 HStem: -290 90<168.481 247.519 322.481 401.519> -140 90<159.499 404.498> 0 21<585.5 609> 165 90<443.469 508.816> 470 90<334.481 413.519 488.481 567.519>
 VStem: 51 90<-30.8035 183> 162 92<-283.519 -206.481> 316 92<-283.519 -206.481> 328 92<476.481 553.519> 482 92<476.481 553.519> 519 90<59.5024 160.756>
 LayerCount: 2
+Back
 Fore
 Refer: 163 -1 N 1 0 0 1 451 470 2
 Refer: 163 -1 N 1 0 0 1 285 -290 2
 Refer: 161 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 4-1" uniFE98 uniFEF2
 EndChar
 
 StartChar: uniFC68
 Encoding: 64616 64616 153
+GlifName: uniF_C_68
 Width: 609
 VWidth: 0
 Flags: W
 HStem: -140 90<159.499 404.498> 0 21<585.5 609> 165 90<443.469 508.816> 326 66<336 391> 420 66<450 500>
 VStem: 51 90<-30.8035 183> 336 139<328.028 391.5> 367 133<421.25 483.972> 519 90<59.5024 160.756>
 LayerCount: 2
+Back
 Fore
 Refer: 142 -1 N 1 0 0 1 418 326 2
 Refer: 161 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 4-1" uniFE8C uniFEF0
 EndChar
 
 StartChar: uniFC69
 Encoding: 64617 64617 154
+GlifName: uniF_C_69
 Width: 609
 VWidth: 0
 Flags: W
 HStem: -290 90<168.481 247.519 322.481 401.519> -140 90<159.499 404.498> 0 21<585.5 609> 165 90<443.469 508.816> 326 66<336 391> 420 66<450 500>
 VStem: 51 90<-30.8035 183> 162 92<-283.519 -206.481> 316 92<-283.519 -206.481> 336 139<328.028 391.5> 367 133<421.25 483.972> 519 90<59.5024 160.756>
 LayerCount: 2
+Back
 Fore
 Refer: 163 -1 N 1 0 0 1 285 -290 2
 Refer: 142 -1 N 1 0 0 1 418 326 2
 Refer: 161 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 4-1" uniFE8C uniFEF2
 EndChar
 
 StartChar: uniFC95
 Encoding: 64661 64661 155
+GlifName: uniF_C_95
 Width: 609
 VWidth: 0
 Flags: W
 HStem: -256 90<415.481 494.519 569.481 648.519> -140 90<159.499 404.498> 0 21<585.5 609> 165 90<443.469 508.816>
 VStem: 51 90<-30.8035 183> 409 92<-249.519 -172.481> 519 90<59.5024 160.756> 563 92<-249.519 -172.481>
 LayerCount: 2
+Back
 Fore
 Refer: 163 -1 N 1 0 0 1 532 -256 2
 Refer: 161 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 4-1" uniFEF4 uniFEF0
 EndChar
 
 StartChar: uniFC96
 Encoding: 64662 64662 156
+GlifName: uniF_C_96
 Width: 609
 VWidth: 0
 Flags: W
 HStem: -340 90<148.481 227.519 302.481 381.519> -256 90<415.481 494.519 569.481 648.519> -140 90<159.499 404.498> 0 21<585.5 609> 165 90<443.469 508.816>
 VStem: 51 90<-30.8035 183> 142 92<-333.519 -256.481> 296 92<-333.519 -256.481> 409 92<-249.519 -172.481> 519 90<59.5024 160.756> 563 92<-249.519 -172.481>
 LayerCount: 2
+Back
 Fore
 Refer: 163 -1 S 1 0 0 1 265 -340 2
 Refer: 163 -1 S 1 0 0 1 532 -256 2
 Refer: 161 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 4-1" uniFEF4 uniFEF2
 EndChar
 
 StartChar: uniFC7A
 Encoding: 64634 64634 157
+GlifName: uniF_C_7A_
 Width: 609
 VWidth: 0
 Flags: W
 HStem: -140 90<159.499 404.498> 0 21<585.5 609> 165 90<443.469 508.816> 390 90<334.481 413.519 488.481 567.519> 470 90<411.481 490.519>
 VStem: 51 90<-30.8035 183> 328 92<396.481 473.519> 405 92<476.481 553.519> 482 92<396.481 473.519> 519 90<59.5024 160.756>
 LayerCount: 2
+Back
 Fore
 Refer: 164 -1 N 1 0 0 1 451 390 2
 Refer: 161 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 4-1" uniFE9C uniFEF0
 EndChar
 
 StartChar: uniFC7B
 Encoding: 64635 64635 158
+GlifName: uniF_C_7B_
 Width: 609
 VWidth: 0
 Flags: W
 HStem: -290 90<168.481 247.519 322.481 401.519> -140 90<159.499 404.498> 0 21<585.5 609> 165 90<443.469 508.816> 390 90<334.481 413.519 488.481 567.519> 470 90<411.481 490.519>
 VStem: 51 90<-30.8035 183> 162 92<-283.519 -206.481> 316 92<-283.519 -206.481> 328 92<396.481 473.519> 405 92<476.481 553.519> 482 92<396.481 473.519> 519 90<59.5024 160.756>
 LayerCount: 2
+Back
 Fore
 Refer: 163 -1 N 1 0 0 1 285 -290 2
 Refer: 164 -1 N 1 0 0 1 451 390 2
 Refer: 161 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 4-1" uniFE9C uniFEF2
 EndChar
 
 StartChar: uniFE8B
 Encoding: 65163 65163 159
+GlifName: uniF_E_8B_
 Width: 298
 VWidth: 0
 Flags: W
 HStem: 0 90<0 158> 368 66<64 119> 462 66<178 228>
 VStem: 64 139<370.028 433.5> 95 133<463.25 525.972> 158 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 142 -1 N 1 0 0 1 146 368 2
 Refer: 149 -1 N 1 0 0 1 0 0 2
@@ -3295,12 +3628,14 @@ EndChar
 
 StartChar: uniFE8C
 Encoding: 65164 65164 160
+GlifName: uniF_E_8C_
 Width: 248
 VWidth: 0
 Flags: W
 HStem: 0 90<0 158> 368 66<64 119> 462 66<178 228>
 VStem: 64 139<370.028 433.5> 95 133<463.25 525.972> 158 90<90 320>
 LayerCount: 2
+Back
 Fore
 Refer: 142 -1 N 1 0 0 1 146 368 2
 Refer: 149 -1 N 1 0 0 1 0 0 2
@@ -3308,12 +3643,14 @@ EndChar
 
 StartChar: yehwezza
 Encoding: 65539 -1 161
+GlifName: yehwezza
 Width: 609
 VWidth: 0
 Flags: W
 HStem: -140 90<159.499 404.498> 0 21G<585.5 609> 165 90<443.469 508.816>
 VStem: 51 90<-30.8035 183> 519 90<59.5024 160.756>
 LayerCount: 2
+Back
 Fore
 SplineSet
 366 -140 m 0
@@ -3353,12 +3690,14 @@ EndChar
 
 StartChar: dot
 Encoding: 65540 -1 162
+GlifName: dot
 Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 90<-39.5194 39.5194>
 VStem: -46 92<6.48056 83.5194>
 LayerCount: 2
+Back
 Fore
 SplineSet
 -1 90 m 6
@@ -3373,12 +3712,14 @@ EndChar
 
 StartChar: twodots
 Encoding: 65541 -1 163
+GlifName: twodots
 Width: 0
 VWidth: -861
 Flags: W
 HStem: 0 90<-116.519 -37.4806 37.4806 116.519>
 VStem: -123 92<6.48056 83.5194> 31 92<6.48056 83.5194>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 77 0 2
 Refer: 162 -1 N 1 0 0 1 -77 0 2
@@ -3386,12 +3727,14 @@ EndChar
 
 StartChar: threedots
 Encoding: 65542 -1 164
+GlifName: threedots
 Width: 0
 VWidth: -861
 Flags: W
 HStem: 0 90<-116.519 -37.4806 37.4806 116.519> 80 90<-39.5194 39.5194>
 VStem: -123 92<6.48056 83.5194> -46 92<86.4806 163.519> 31 92<6.48056 83.5194>
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 0 80 2
 Refer: 163 -1 N 1 0 0 1 0 0 2
@@ -3399,24 +3742,28 @@ EndChar
 
 StartChar: uniFEE2
 Encoding: 65250 65250 165
+GlifName: uniF_E_E_2
 Width: 536
 VWidth: 0
 Flags: W
 HStem: 0 90<107.702 222 312 439.078>
 VStem: 139 1<0 90> 222 90<90 235.491>
 LayerCount: 2
+Back
 Fore
 Refer: 82 1605 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFED3
 Encoding: 65235 65235 166
+GlifName: uniF_E_D_3
 Width: 451
 VWidth: -480
 Flags: W
 HStem: 0 90<0 311> 112 89<178.842 311> 470 90<159.481 238.519>
 VStem: 153 92<476.481 553.519> 312 89<90 110 200 315.927>
 LayerCount: 2
+Back
 Fore
 Refer: 168 -1 N 1 0 0 1 0 0 2
 Refer: 162 -1 N 1 0 0 1 199 470 2
@@ -3424,24 +3771,28 @@ EndChar
 
 StartChar: uniFED4
 Encoding: 65236 65236 167
+GlifName: uniF_E_D_4
 Width: 401
 VWidth: -480
 Flags: W
 HStem: 0 90<0 311> 112 89<178.842 311> 470 90<159.481 238.519>
 VStem: 153 92<476.481 553.519> 312 89<90 110 200 315.927>
 LayerCount: 2
+Back
 Fore
 Refer: 166 65235 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: initialdotlessfeh
 Encoding: 65543 -1 168
+GlifName: initialdotlessfeh
 Width: 451
 VWidth: -480
 Flags: W
 HStem: 0 90<0 311> 112 89<178.842 311>
 VStem: 312 89<90 110 200 315.927>
 LayerCount: 2
+Back
 Fore
 SplineSet
 219 201 m 0
@@ -3467,24 +3818,28 @@ EndChar
 
 StartChar: uniFED7
 Encoding: 65239 65239 169
+GlifName: uniF_E_D_7
 Width: 451
 VWidth: -480
 Flags: W
 HStem: 0 90<0 311> 112 89<178.842 311>
 VStem: 312 89<90 110 200 315.927>
 LayerCount: 2
+Back
 Fore
 Refer: 168 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFED8
 Encoding: 65240 65240 170
+GlifName: uniF_E_D_8
 Width: 401
 VWidth: -480
 Flags: W
 HStem: 0 90<0 311> 112 89<178.842 311> 470 90<130.481 209.519 284.481 363.519>
 VStem: 124 92<476.481 553.519> 278 92<476.481 553.519> 312 89<90 110 200 315.927>
 LayerCount: 2
+Back
 Fore
 Refer: 163 -1 N 1 0 0 1 247 470 2
 Refer: 169 65239 N 1 0 0 1 0 0 2
